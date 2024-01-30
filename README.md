@@ -35,3 +35,13 @@ ng generate application app-two --no-standalone
 ng serve app-one --port 8200
 
 ng serve app-two --port 9200
+
+3. Make Application Build
+
+ng build --project=app-one
+ng build --project=app-two
+
+4. Demo Link
+
+App-one = https://multi-angular-ecommerce-template.vercel.app/
+App-two = https://multi-angular-ecommerce-template-von8.vercel.app/
